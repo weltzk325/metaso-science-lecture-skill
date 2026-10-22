@@ -1,0 +1,43 @@
+\documentclass[UTF8,fontset=none,a4paper,11pt]{ctexart}
+\IfFontExistsTF{SimSun}{
+  \setCJKmainfont[BoldFont=SimHei,ItalicFont=KaiTi]{SimSun}
+  \setCJKsansfont{SimHei}
+  \setCJKmonofont{FangSong}
+}{
+  \setCJKmainfont[BoldFont=FandolSong-Bold,ItalicFont=FandolKai-Regular]{FandolSong-Regular}
+  \setCJKsansfont{FandolHei-Regular}
+  \setCJKmonofont{FandolFang-Regular}
+}
+\usepackage[margin=22mm]{geometry}
+\usepackage{amsmath,amssymb,mathtools,bm}
+\usepackage{booktabs,tabularx,longtable}
+\usepackage{graphicx,tikz}
+\usetikzlibrary{arrows.meta,positioning,calc,fit}
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage{placeins}
+\hypersetup{colorlinks=true,linkcolor=teal,urlcolor=teal}
+\lstset{basicstyle=\ttfamily\small,breaklines=true,columns=fullflexible,
+  frame=single,showstringspaces=false}
+\title{理工科图文课程}
+\author{}
+\date{}
+\begin{document}
+\maketitle
+\tableofcontents
+\section{对象、目标与先修关系}
+从学习目标确定需要的物理量、模型、变量和单位。
+\section{核心推导}
+从已定义的假设逐步推导，再说明物理意义和适用范围。
+\section{理论到计算}
+将公式、算法、函数或软件、预期输出对应起来。
+\section{图像、抽样与验证}
+解释每个点、柱和曲线怎样生成，以及能验证到哪一步。
+\section{代码架构与定位错误}
+说明模块、数据流、更新时机、预期行为及典型故障原因。
+\section*{课后费曼复述}
+完整学习后再串讲、查缺口并改变条件检验迁移。
+\section*{来源与适用边界}
+列出正文实际使用的原始材料、软件约定和示例参数。
+\end{document}
