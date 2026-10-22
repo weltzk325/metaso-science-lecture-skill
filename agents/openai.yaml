@@ -1,0 +1,4 @@
+interface:
+  display_name: "秘塔理工科图文课程"
+  short_description: "以LaTeX组织推导、图解与模拟代码，生成可直接上传秘塔的完整讲义"
+  default_prompt: "使用 $metaso-science-lecture，把提供的材料整理成推导完整、图文并茂的LaTeX讲义，连接理论与模拟实现，听完后再做费曼复述。"
